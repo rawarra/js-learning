@@ -1,25 +1,23 @@
 //Student Results Report
-
-let stdScore=50;
+let studScroe = 90;
 let gread;
-let collegeStd=false;
+let collegStd = false;
 
-if (stdScore>=100){
+if(studScroe>=90){
     gread = `A`;
-}
-else if (stdScore>=88){
+} 
+else if(studScroe>=70){
     gread = `B`;
 }
-else if (stdScore>=60){
+else if(studScroe>=60){
     gread = `c`;
 }
-else {
-    if(collegeStd){
-        gread=`RA This college Students ${collegeStd}` ;
-    }
-    else {
-    gread = `F`;
-    }
+else{
+    if(collegStd){
+        gread=`RA`
+    }else {
+    gread = `F`
+}
 }
 
 console.log(gread);
